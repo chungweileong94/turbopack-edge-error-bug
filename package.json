@@ -1,14 +1,16 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "next": "canary",
+    "next-auth": "5.0.0-beta.18",
     "react": "19.0.0-beta-04b058868c-20240508",
-    "react-dom": "19.0.0-beta-04b058868c-20240508"
+    "react-dom": "19.0.0-beta-04b058868c-20240508",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "20.4.5",
